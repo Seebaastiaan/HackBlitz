@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎲 BetChain - Casino On-Chain en Monad
 
-## Getting Started
+¡Bienvenido a **BetChain**, el casino on-chain que te hace más rico incluso cuando pierdes! Una porción de cada apuesta va directamente a tu bóveda de ahorros, generando un APY mientras juegas.
 
-First, run the development server:
+![BetChain Lobby](https://i.imgur.com/tu3oA6X.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Características Principales
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-   **Auto-Ahorro**: Cada apuesta contribuye a tu bóveda de ahorros personal.
+-   **Gana Rendimiento**: Tus ahorros generan un 10.5% de APY mientras juegas.
+-   **Totalmente On-Chain**: 100% transparente en la blockchain de Monad.
+-   **Juegos Clásicos**: Disfruta de juegos como Blackjack y Crash (El Pollito).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Tecnologías Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este proyecto fue construido con un stack de tecnologías modernas para ofrecer una experiencia de usuario fluida, segura y descentralizada.
 
-## Learn More
+### Frontend
 
-To learn more about Next.js, take a look at the following resources:
+-   **Next.js**: Framework de React para aplicaciones web de alto rendimiento con Server-Side Rendering (SSR) y Static Site Generation (SSG).
+-   **React**: Biblioteca para construir interfaces de usuario interactivas y componentizadas.
+-   **TypeScript**: Superset de JavaScript que añade tipado estático para un desarrollo más robusto y escalable.
+-   **Tailwind CSS**: Framework de CSS "utility-first" para un diseño rápido y personalizable sin salir de tu HTML.
+-   **GSAP (GreenSock Animation Platform)**: Biblioteca de animación para crear animaciones complejas y de alto rendimiento.
+-   **Howler.js**: Biblioteca de audio para la web, utilizada para gestionar los efectos de sonido del casino.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Web3 y Blockchain
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-   **Wagmi**: Hooks de React para Ethereum. Facilita la conexión a wallets, la interacción con contratos y la gestión de la red.
+-   **Viem**: Una interfaz de TypeScript de bajo nivel para Ethereum que proporciona una forma más segura y eficiente de interactuar con la blockchain.
+-   **Ethers.js**: Biblioteca completa para interactuar con la blockchain de Ethereum y sus ecosistemas.
+-   **Monad**: La blockchain sobre la que opera BetChain, ofreciendo transacciones rápidas y de bajo costo.
 
-## Deploy on Vercel
+### Herramientas de Desarrollo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-   **ESLint**: Herramienta de "linting" para identificar y corregir problemas en el código JavaScript/TypeScript.
+-   **TanStack Query**: Biblioteca para la gestión de estado asíncrono, fetching, caching y actualización de datos.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🏁 Cómo Empezar
+
+1.  **Clona el repositorio**:
+    ```bash
+    git clone https://github.com/tu-usuario/betchain.git
+    ```
+2.  **Instala las dependencias**:
+    ```bash
+    cd betchain
+    npm install
+    ```
+3.  **Inicia el servidor de desarrollo**:
+    ```bash
+    npm run dev
+    ```
+4.  Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación.
+
+---
+
+Hecho con ❤️ para el Hackathon de Monad.
+
