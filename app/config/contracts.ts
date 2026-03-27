@@ -28,8 +28,8 @@ export const monadTestnet = defineChain({
 
 // Contract Addresses
 export const CONTRACTS = {
-  BetChain: '0x6B564506Af298bD6c263b6C695071E25186ACA86' as `0x${string}`,
-  CrashGame: '0xa7eF3ea62EfA084180769D1CC621c69E6F034FDC' as `0x${string}`,
+  BetChain: '0xb8019258769C96a1c3ccB3D0A2c77E594fDCDA68' as `0x${string}`,
+  CrashGame: '0xB1c3f32EdDCCca5c7fF311d6F9bE3B096774a387' as `0x${string}`,
 } as const;
 
 // BetChain ABI
